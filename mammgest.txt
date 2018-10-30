@@ -1,0 +1,12 @@
+ Row  Mammal       Birthwgt   Gestation
+   1  Goat           2.75        155
+   2  Sheep          4.00        175
+   3  Deer           0.48        190
+   4  Porcupine      1.50        210
+   5  Bear           0.37        213
+   6  Hippo         50.00        243
+   7  Horse         30.00        340
+   8  Camel         40.00        380
+   9  Zebra         40.00        390
+  10  Giraffe       98.00        457
+  11  Elephant     113.00        670
