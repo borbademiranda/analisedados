@@ -1,0 +1,4 @@
+cod.replica_1.R (text/plain; charset=UTF-8) 7383 bytes.
+simula.correto.csv (text/plain; charset=US-ASCII) 8544 bytes.
+simula.errado.csv (text/plain; charset=US-ASCII) 2738 bytes.
+simulacao.R (text/plain; charset=UTF-8) 16816 bytes.
