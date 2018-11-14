@@ -124,9 +124,14 @@ summary(reg42b2)
 
 ggplot(data = reg42b2, mapping = aes(x = age, y = length)) + 
   geom_point() +
-  stat_smooth(method = lm, formula = y ~ x + I(x^2), se = T)
+  stat_smooth(method = lm, formula = y ~ x + I(x^2), se = F)
 
 plot(reg42b2)
 
 summary(reg42b)
 summary(reg42b2)
+
+# LETRA C
+
+# o efeito da variável independente sobre Y é igual a 54.04, sendo estatisticamente
+# significante ao nível máximo da tabela de significância.
