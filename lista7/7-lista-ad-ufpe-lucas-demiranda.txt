@@ -1,0 +1,33 @@
+QUESTÃO 1 
+
+a) um modelo linear de probabilidade é um modelo que é utilizado com variáveis dependentes do tipo dummy. 
+
+b) as variáveis dependentes são sempre mensuradas como 0 (quando esta é ausente) e 1 (quando ocorre o evento que a variável dependente está mensurando). 
+
+c) Os coeficientes estimados das variáveis independentes do modelo podem ser interpretados como a probabilidade de ocorrência da variável dependente (quando esta assume valor igual a 1). 
+
+d) alguns problemas podem ocorrer na aplicação de um LPM, como por exemplo, os coeficientes podem assumir valores superiores a 1, o que é matematicamente impossível, já que probabilidade é um valor entre 0 e 1. A homocedasticidade também é comprometida em modelos LPM, sendo provável que o erro não varie de forma igual quando os valores da variável dependente são próximos de 0,5. 
+
+QUESTÃO 2
+
+a) modelos logit também possuem a variável dependente categórica, sendo seu valor atribuído como 0 ou 1. O componente estocástico de um modelo logit possui distribuição logística. 
+
+b) a variável dependente é mensurada como 0 ou 1 (o primeiro quando o evento que a variável dependente mensura não ocorre, o último quando há ocorrência da VD)
+
+c) os coeficientes das variáveis independentes devem ser interpretados por meio das log odds, ou razões de chance, que representam a chance de de ocorrência da variável dependente.
+
+QUESTÃO 3
+
+a) um modelo probit é utilizado também para interpretar probabilidades de ocorrência de uma variável dependente dummy. O componente estocástico de um modelo probit possui distribuição normal e média 0.
+
+b) os coeficientes estimados para a variável resposta podem ser interpretados como a probabilidade de ocorrência da variável dependente. Também medem o aumento ou diminuição do z-score da VD, que mede o número de desvios padrão da média da variável. 
+
+c) os coeficientes de um modelo probit multivariado são medidos de forma semelhante a um modelo bivariado.
+
+QUESTÃO 4
+
+a) a principal diferença é que as caudas são mais retas e cruzam o 0 no eixo y. 
+
+b) uma variável latente é aquela que é observada somente quando a propensão para a sua ocorrência cruza uma barreira, e então, a variável pode ser atribuída como "1". Não podemos observar diretamente uma variável latente, então, assessamos a existência do nosso Y através de um y*, ao ponto que uma mudança no y* gera uma mudança no estado de observação de Y, ou seja, Y passe de 0 para 1. 
+
+c) um primeiro aspecto a ser observado é que o efeito marginal de x em y não é constante. Seu efeito pode ser maior ou menor dependendo dos pontos analisados no eixo x. Os coeficientes de uma determinada variável num modelo probit depende também dos valores dos demais coeficientes. Uma maneira utilizada para analisar o efeito de uma determinada variável é inserir todas as outras variáveis no modelo representadas pela sua média. Assim, somente o x de interesse varia, as demais permanecem constantes. 
